@@ -90,7 +90,7 @@ export default {
                         "APP_DEMO_USER_TOKEN",
                         result.data.data.token
                     );
-                    await router.push("/home");
+                    await router.push("home");
                 }
             } catch (e) {
                 if (e && e.response.data && e.response.data.errors) {
